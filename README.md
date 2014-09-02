@@ -17,7 +17,7 @@ To create HTML for the deck, export the deck in a `.txt` format and put it in th
 
 _Note_: Only the lines that start with a number will be considered card names. To print the identity card, insert a number 1 in front of it. Space is used to delimit the number and the card name. Lines not starting with a number will be ignored.
 
-Afterwards, print the deck and cut it out. To export to PDF you can use Chrome browser and its "Save as PDF" function inside Print dialog <C-P>.
+Afterwards, print the deck and cut it out. To export to PDF you can use Chrome browser and its "Save as PDF" function inside Print dialog < C-P >. Landscape orientation on A4 paper format has 8 cards on one page.
 
 Script summary
 --------------
