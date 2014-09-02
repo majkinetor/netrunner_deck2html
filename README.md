@@ -14,6 +14,7 @@ Usage
 First download all cards using script `download_cards.ahk`. Inside the script `base_uri` variable points to `netrunnerdb` service. This will download all known cards and save them in the folder `Cards`.
 
 To create HTML for the deck, export your deck in a `.txt` format and put it in the `Decks` folder. Use `create_deck.ahk` afterwards and change `deck` variable to point to your deck. You can change the CSS inside the script (that is, set image dimensions).
+
 _Note_: Only lines that start with the number will be considered as card names. To print identity card, insert number 1 in front of it (use space to delimit card name and number).
 
 Afterwards, print the deck and cut it out.
