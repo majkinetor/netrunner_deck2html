@@ -1,7 +1,7 @@
 Netrunner Deck 2 HTML 
 ====================
 
-This package contains scripts and utilities for creation of Netrunner decks in HTML format that can be easily printed.
+This package contains Windows scripts and utilities for creation of Netrunner decks in HTML format that can be easily printed.
 
 Installation
 ------------
