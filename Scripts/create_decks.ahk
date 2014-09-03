@@ -6,12 +6,13 @@
 
 
 		root := "Cards"
-		imgs := "", var j:=0
+		imgs := "", k := j:=0
 		loop, read, ..\Decks\%deck%
 		{
 			no := SubStr(A_LoopReadLine, 1, 1), card := Trim(SubStr(A_LoopReadLine, 3))
 			if no is not integer
 				continue
+			k++, j += no
 
 			cp := GetCardFileName( card )
 			i = <img src="%cp%">
@@ -20,7 +21,6 @@
 				imgs .= i
 				no--
 			}
-			j++
 		}
 
 		StringReplace, fnH, deck, .txt, .htm
@@ -31,7 +31,7 @@
 		;StringReplace, fnP, deck, .txt, .pdf
 		;RunWait, ..\Utils\wkhtmltopdf\wkhtmltopdf.exe --page-width 150 --page-height 200 -O Landscape "..\Decks\%fnH%" "..\Decks\%fnP%"
 
-		 d .= "`n" deck " (" j ")"
+		 d .= "`n" deck " (" j " cards, " k " unique)"
 	}
 	Msgbox Deck's created: `n %d%
 return
