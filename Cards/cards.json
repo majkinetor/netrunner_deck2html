@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NetrunnerDB is closed</title>
+    <link rel="icon" sizes="16x16" href="/favicon.png" />
+    <link rel="icon" sizes="196x196" href="/icon.png" />
+    <link rel="apple-touch-icon" sizes="129x129" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.css">
+    <link rel="stylesheet" href="/web/bundles/netrunnerdbbuilder/css/style.css?v1.1">
+    <link rel="stylesheet" href="/web/bundles/netrunnerdbbuilder/css/icons.css?v1.1">
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.1/js/bootstrap.min.js"></script>
+    <script src="/web/bundles/netrunnerdbbuilder/js/flowtype.js?v1.1">
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-44413511-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+    $(function () {
+	  });
+    </script>
+    </head>
+  <body style="background:#444;color:#fff;text-shadow: -1px -1px 0px #000;font-size:48px">
+    <div style="padding:10px;margin:auto;position:absolute;top:0;bottom:0;height:320px;width:500px;left:0;right:0;border: 1px solid #444">
+        <p style="font-family: 'Palatino Linotype',Palatino,'URW Palladio L',serif;">
+            <span><span class="icon icon-subroutine"></span> Trash 1 fan site.</span>
+        </p>
+        <p style="font-family: 'Palatino Linotype',Palatino,'URW Palladio L',serif;">
+            <span><span class="icon icon-subroutine"></span> End of story.</span>
+        </p>
+        <p style="font-size:40%;font-style:italic">Site closed by order of Fantasy Flight Games.<br>
+        FFG recommend you use <a href="http://cardgamedb.com">CardGameDB.com</a>.<br>
+        FFG welcome <a href="http://www.fantasyflightgames.com/edge_atencion.asp">suggestions</a> on how to improve it.</p>
+    </div>
+  </body>
+</html>
